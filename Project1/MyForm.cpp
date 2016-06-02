@@ -31,6 +31,7 @@ void Project1::MyForm::btn_start_Click(System::Object^  sender, System::EventArg
 	}
 	else
 		btn_start->Text = "Start";
+	
 	lb_log->Items->Add("open sensor");
 	IKinectSensor* pSensor = nullptr;
 	{
